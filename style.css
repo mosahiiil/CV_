@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.social_links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: black;
+}
+
+a {
+  color: rgba(10, 49, 226, 0.91); /* Reduced precision */
+  font-size: large;
+}
+
+ul li {
+  margin-left: 40px;
+}
+
+.projects,
+.education {
+  margin: 10px 0;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
+.left_border {
+  border-left: 1px solid black;
+  padding-left: 22px;
+}
+
+.footer_ul {
+  list-style-type: none;
+}
